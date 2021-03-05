@@ -34,7 +34,17 @@
                 }else {
                   print "Si , si son iguales..";
                 }
+                echo "<hr>";
+               // $usuariologueado = true;
+               $usuariologueado = false;
+                if ($usuariologueado) {
+                  echo "Mostrando contenido";
+                }else {
+                  echo "Debe iniciar sesion por favor";
+                }
+                
               ?>
+              
           </div>
     </div>
     
